@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: #181a1b; */
+  /* color: #f5f5f5; */
+  transition: background 0.3s, color 0.3s;
+}
+
+.App {
+  background: inherit;
+  color: inherit;
+}
+
+/* Theme base styles */
+/* Dark Theme */
+.dark-theme {
+  background: #181a1b;
+  color: #e0e0e0;
+}
+.dark-theme .navbar,
+.dark-theme .footer,
+.dark-theme .project-section,
+.dark-theme .about-section,
+.dark-theme .resume-section {
+  background: #181a1b !important;
+  color: #e0e0e0 !important;
+}
+.dark-theme .card,
+.dark-theme .project-card-view {
+  background: #23272f !important;
+  color: #e0e0e0 !important;
+  border-color: #23272f !important;
+}
+.dark-theme .icon-colour,
+.dark-theme .home-social-icons {
+  color: #00bcd4 !important;
+}
+
+/* Light Theme */
+.light-theme {
+  background: #f5f6fa;
+  color: #181a1b;
+}
+.light-theme .navbar,
+.light-theme .footer,
+.light-theme .project-section,
+.light-theme .about-section,
+.light-theme .resume-section {
+  background: #f5f6fa !important;
+  color: #181a1b !important;
+}
+.light-theme .card,
+.light-theme .project-card-view {
+  background: #fff !important;
+  color: #181a1b !important;
+  border-color: #e0e0e0 !important;
+}
+.light-theme .icon-colour,
+.light-theme .home-social-icons {
+  color: #1976d2 !important;
+}
+
+/* Smooth transition for all */
+.navbar, .footer, .card, .project-card-view, .about-section, .project-section, .resume-section {
+  transition: background 0.3s, color 0.3s;
+}
