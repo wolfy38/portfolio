@@ -3,17 +3,6 @@
 Welcome to my personal portfolio website! 🚀  
 Showcasing my skills, projects, and experience in DevOps, Cloud, and Web Development.
 
-## 🌐 Live Demo
-
-[View Portfolio Live](https://your-deployment-link.com)  
-_(Replace with your actual deployed site link)_
-
----
-
-## 📸 Screenshots
-
-![Portfolio Screenshot](./Images/readme-img.png)
-![Portfolio Screenshot 2](./Images/readme-img1.png)
 
 ---
 
@@ -41,8 +30,8 @@ _(Replace with your actual deployed site link)_
 1. **Clone the repo:**
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/wolfy38/portfolio
+   cd portfolio
    ```
 
 2. **Install dependencies:**
