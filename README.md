@@ -83,5 +83,12 @@ Portfolio/
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
+---
+
+## 🙏 Credits
+
+This project is inspired by [Soumyajit Behera's Portfolio](https://github.com/soumyajit4419/Portfolio).  
+Huge thanks for the design ideas and base structure!
+
 
 > Made with ❤️ by Shlok Masani
